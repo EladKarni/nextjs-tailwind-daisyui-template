@@ -2,6 +2,9 @@
 import { faqType } from "@/types/faqType";
 import Accordion from "@/components/accordion";
 import { SetStateAction, useState } from "react";
+import SectionContainer from "@/ui/SectionContainer";
+import SubtitleText from "@/ui/SubtitleText";
+import TitleText from "@/ui/TitleText";
 
 interface FAQPropTypes {
   faqItems: faqType[];
@@ -14,8 +17,11 @@ const FAQSection = ({ faqItems }: FAQPropTypes) => {
   };
 
   return (
-    <section className="flex flex-col align-middle" id="faq">
-      <h2 className="text-center my-4">Frequently Asked Questions</h2>
+    <SectionContainer
+      sectionName="faq"
+      sectionClasses="flex flex-col align-middle"
+    >
+      <SubtitleText>FAQ Example</SubtitleText>
       <fieldset className="accordion">
         {faqItems.map((faq) => (
           <Accordion
@@ -26,7 +32,7 @@ const FAQSection = ({ faqItems }: FAQPropTypes) => {
           />
         ))}
       </fieldset>
-    </section>
+    </SectionContainer>
   );
 };
 

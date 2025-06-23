@@ -18,7 +18,7 @@ const FAQSection = ({ faqItems }: FAQPropTypes) => {
   return (
     <SectionContainer
       sectionName="faq"
-      sectionClasses="flex flex-col align-middle"
+      sectionClasses="flex flex-col align-middle "
     >
       <SubtitleText>FAQ Example</SubtitleText>
       <fieldset className="accordion">

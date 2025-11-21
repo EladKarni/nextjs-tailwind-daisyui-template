@@ -10,6 +10,8 @@ import sharp from "sharp";
 import { Users } from "./collections/Users";
 import { Media } from "./collections/Media";
 import { Projects } from "./collections/Projects";
+import { Services } from "./collections/Services";
+import { Testimonials } from "./collections/Testimonials";
 
 // Import globals
 import { HeroSection } from "./globals/HeroSection";
@@ -31,7 +33,7 @@ export default buildConfig({
     },
     disable: false,
   },
-  collections: [Users, Media, Projects],
+  collections: [Users, Media, Projects, Services, Testimonials],
   globals: [
     HeroSection,
     ProjectsSection,

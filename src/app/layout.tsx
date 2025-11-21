@@ -10,25 +10,25 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "YK Innovations | Innovative Digital Solutions",
+    default: "YK Innovations | Mechanical Engineering & Rapid Prototyping",
     template: "%s | YK Innovations",
   },
-  description: "Transform your business with cutting-edge digital solutions. We specialize in web development, mobile apps, cloud solutions, and enterprise software.",
-  keywords: ["web development", "mobile apps", "digital solutions", "software development", "cloud services"],
+  description: "Expert mechanical engineering and rapid prototyping services for businesses. We transform product concepts into functional prototypes with CAD design, 3D printing, CNC machining, and DFM analysis.",
+  keywords: ["mechanical engineering", "rapid prototyping", "CAD design", "3D printing", "CNC machining", "product development", "DFM analysis", "prototyping services"],
   authors: [{ name: "YK Innovations" }],
   creator: "YK Innovations",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://ykinnovations.com/",
-    title: "YK Innovations | Innovative Digital Solutions",
-    description: "Transform your business with cutting-edge digital solutions.",
+    title: "YK Innovations | Mechanical Engineering & Rapid Prototyping",
+    description: "Expert mechanical engineering and rapid prototyping services for businesses. We transform product concepts into functional prototypes.",
     siteName: "YK Innovations",
   },
   twitter: {
     card: "summary_large_image",
-    title: "YK Innovations | Innovative Digital Solutions",
-    description: "Transform your business with cutting-edge digital solutions.",
+    title: "YK Innovations | Mechanical Engineering & Rapid Prototyping",
+    description: "Expert mechanical engineering and rapid prototyping services for businesses. We transform product concepts into functional prototypes.",
   },
 };
 

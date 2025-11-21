@@ -11,15 +11,15 @@ export default function Home() {
     <main className="min-h-screen">
       {/* Hero Section */}
       <Hero
-        title="Innovative Solutions for Modern Businesses"
+        title="Bringing Your Product Ideas to Life"
         subtitle="Welcome to YK Innovations"
-        description="We transform ideas into powerful digital experiences that drive growth and exceed expectations."
+        description="Expert mechanical engineering and rapid prototyping services. We transform concepts into functional prototypes, bridging the gap from design to manufacturing."
         primaryCTA={{
-          text: "Get Started",
+          text: "Start Your Project",
           href: "#contact",
         }}
         secondaryCTA={{
-          text: "View Our Work",
+          text: "View Our Prototypes",
           href: "#projects",
         }}
         backgroundImage="https://picsum.photos/1920/1080?random=1"
@@ -29,17 +29,17 @@ export default function Home() {
 
       {/* About Section */}
       <AboutSection
-        title="Building the Future Together"
+        title="Engineering Innovation, One Prototype at a Time"
         subtitle="About Us"
-        description="At YK Innovations, we're passionate about creating cutting-edge solutions that empower businesses to thrive in the digital age. With a team of expert developers, designers, and strategists, we deliver exceptional results that exceed expectations."
+        description="At YK Innovations, we specialize in mechanical engineering and rapid prototyping for businesses developing new products. From initial CAD design to functional prototypes, we provide comprehensive engineering support to bring your ideas from concept to reality."
         stats={[
-          { value: "100+", label: "Projects Completed" },
-          { value: "50+", label: "Happy Clients" },
-          { value: "5+", label: "Years Experience" },
+          { value: "150+", label: "Prototypes Delivered" },
+          { value: "40+", label: "Business Partners" },
+          { value: "8+", label: "Years Engineering" },
         ]}
         cta={{
-          text: "Learn More About Us",
-          href: "#about",
+          text: "Learn About Our Process",
+          href: "#process",
         }}
         imagePosition="right"
       />

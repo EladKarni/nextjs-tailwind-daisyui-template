@@ -19,7 +19,7 @@ const Footer = () => {
               <Logo />
             </Link>
             <p className="text-base-content/70 text-sm leading-relaxed">
-              Innovative solutions for modern businesses. We help you build better digital experiences.
+              Expert mechanical engineering and rapid prototyping services. We transform product concepts into functional prototypes.
             </p>
           </div>
 
@@ -53,23 +53,23 @@ const Footer = () => {
             <h3 className="font-semibold text-base-content mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-base-content/70 hover:text-primary text-sm transition-colors duration-200">
-                  Web Development
+                <a href="/#solutions" className="text-base-content/70 hover:text-primary text-sm transition-colors duration-200">
+                  CAD Design & Engineering
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base-content/70 hover:text-primary text-sm transition-colors duration-200">
-                  Mobile Apps
+                <a href="/#solutions" className="text-base-content/70 hover:text-primary text-sm transition-colors duration-200">
+                  Rapid Prototyping
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base-content/70 hover:text-primary text-sm transition-colors duration-200">
-                  Cloud Solutions
+                <a href="/#solutions" className="text-base-content/70 hover:text-primary text-sm transition-colors duration-200">
+                  Design for Manufacturing
                 </a>
               </li>
               <li>
-                <a href="#" className="text-base-content/70 hover:text-primary text-sm transition-colors duration-200">
-                  Consulting
+                <a href="/#solutions" className="text-base-content/70 hover:text-primary text-sm transition-colors duration-200">
+                  Testing & Validation
                 </a>
               </li>
             </ul>

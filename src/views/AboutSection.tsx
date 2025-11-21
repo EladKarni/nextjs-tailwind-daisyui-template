@@ -23,7 +23,7 @@ interface AboutSectionProps {
 const AboutSection: FC<AboutSectionProps> = ({
   title = "About Us",
   subtitle = "Who We Are",
-  description = "We are a team of passionate innovators dedicated to creating cutting-edge digital solutions that drive business growth and transform user experiences.",
+  description = "We are a team of experienced mechanical engineers dedicated to helping businesses bring innovative products to market through expert prototyping and engineering support.",
   image = "https://picsum.photos/800/600?random=2",
   imageAlt = "About Us",
   stats,

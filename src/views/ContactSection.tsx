@@ -13,7 +13,7 @@ interface ContactSectionProps {
 const ContactSection: FC<ContactSectionProps> = ({
   title = "Get in Touch",
   subtitle = "Contact Us",
-  description = "Have a project in mind? Let's discuss how we can help bring your vision to life.",
+  description = "Have a product concept you want to develop? Let's discuss how we can help transform your idea into a functional prototype.",
 }) => {
   const [formData, setFormData] = useState({
     name: "",

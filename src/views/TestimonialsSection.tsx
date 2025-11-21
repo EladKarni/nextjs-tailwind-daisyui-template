@@ -18,22 +18,22 @@ interface TestimonialsSectionProps {
 
 const defaultTestimonials: Testimonial[] = [
   {
-    quote: "Working with this team has been an absolute game-changer for our business. They delivered beyond our expectations and the results speak for themselves.",
-    author: "Sarah Johnson",
-    role: "CEO",
-    company: "TechCorp Solutions",
+    quote: "YK Innovations brought our product concept to life with exceptional engineering expertise. Their prototypes were instrumental in securing our Series A funding, and their attention to manufacturability saved us significant time in tooling.",
+    author: "David Martinez",
+    role: "Founder & CEO",
+    company: "InnovateTech Manufacturing",
   },
   {
-    quote: "The attention to detail and professionalism shown throughout our project was outstanding. Our new platform has significantly improved our customer engagement.",
-    author: "Michael Chen",
-    role: "Product Manager",
-    company: "InnovateLabs",
+    quote: "The attention to detail in their CAD models and DFM analysis saved us significant costs in tooling modifications. Their prototypes performed flawlessly in certification testing, helping us get FDA clearance faster than expected.",
+    author: "Jennifer Wang",
+    role: "VP of Product Development",
+    company: "MedDevice Solutions",
   },
   {
-    quote: "From initial concept to final delivery, the communication and quality of work was exceptional. They truly understand modern web development.",
-    author: "Emily Rodriguez",
-    role: "CTO",
-    company: "StartupXYZ",
+    quote: "From initial concept to production-ready design, their mechanical engineering support was outstanding. The functional prototypes exceeded our quality expectations and helped us identify design improvements early in the process.",
+    author: "Robert Thompson",
+    role: "Director of Engineering",
+    company: "Apex Industrial Systems",
   },
 ];
 

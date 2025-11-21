@@ -22,29 +22,38 @@ const defaultServices: Service[] = [
   {
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
       </svg>
     ),
-    title: "Web Development",
-    description: "Custom web applications built with modern frameworks and best practices for optimal performance and user experience.",
+    title: "CAD Design & Engineering",
+    description: "Professional 3D modeling and CAD design services using SolidWorks, Fusion 360, and AutoCAD for precise product development.",
   },
   {
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
       </svg>
     ),
-    title: "Mobile Applications",
-    description: "Native and cross-platform mobile apps that deliver seamless experiences across iOS and Android devices.",
+    title: "Rapid Prototyping",
+    description: "Fast turnaround prototypes using 3D printing (FDM, SLA, SLS) and CNC machining to validate your design concepts quickly.",
   },
   {
     icon: (
       <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
       </svg>
     ),
-    title: "Cloud Solutions",
-    description: "Scalable cloud infrastructure and services to support your growing business needs with reliability and security.",
+    title: "Design for Manufacturing",
+    description: "DFM analysis and optimization to ensure your designs are production-ready, cost-effective, and manufacturable at scale.",
+  },
+  {
+    icon: (
+      <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+    ),
+    title: "Testing & Validation",
+    description: "Comprehensive prototype testing including functional testing, fit checks, and performance validation to ensure design integrity.",
   },
   {
     icon: (
@@ -52,17 +61,8 @@ const defaultServices: Service[] = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
       </svg>
     ),
-    title: "API Development",
-    description: "Robust and secure APIs that power your applications and enable seamless integrations with third-party services.",
-  },
-  {
-    icon: (
-      <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-      </svg>
-    ),
-    title: "Security & Compliance",
-    description: "Comprehensive security audits and compliance solutions to protect your data and meet industry standards.",
+    title: "Materials Engineering",
+    description: "Expert materials selection and engineering consultation to choose the right materials for your application requirements.",
   },
   {
     icon: (
@@ -70,8 +70,8 @@ const defaultServices: Service[] = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: "Performance Optimization",
-    description: "Fine-tuned optimization strategies to ensure your applications run fast and efficiently at any scale.",
+    title: "Production Support",
+    description: "End-to-end manufacturing support from prototype to production, including vendor sourcing and quality control guidance.",
   },
 ];
 
